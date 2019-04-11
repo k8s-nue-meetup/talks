@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+body {
+	font-family: 'Droid Serif';
+}
+p {
+	font-size: 34px;
+}
+h1, h2, h3 {
+	font-family: 'Yanone Kaffeesatz';
+	font-weight: 400;
+	margin-bottom: 0;
+}
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+.footnote {
+	position: absolute;
+	bottom: 3em;
+}
+li p { line-height: 1.20em;
+	font-size: 32px;
+}
+.red { color: #fa0000; }
+.large { font-size: 2em; }
+a, a > code {
+	color: rgb(249, 38, 114);
+	text-decoration: none;
+}
+code {
+	background: #e7e8e2;
+	border-radius: 5px;
+	color: black;
+}
+
+.remark-code, .remark-inline-code {
+	font-family: 'Ubuntu Mono';
+	background: #e7e8e2;
+
+}
+.remark-code-line-highlighted {
+	background-color: #373832;
+	background: #e7e8e2;
+}
+.pull-left {
+	float: left;
+	width: 47%;
+}
+.pull-right {
+	float: right;
+	width: 47%;
+}
+.pull-right ~ p {
+	clear: both;
+}
+#slideshow .slide .content code {
+	font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+	font-size: 0.6em;
+	padding: 12px;
+}
+
+ul li {
+	font-size: 32px;
+	padding: 3px 0px; }
+
+.remark-inline-code {
+	font-family: 'Ubuntu Mono';
+	background: #e7e8e2;
+	font-size: 1.0em;
+}
+
+.remark-code {
+	font-family: 'Ubuntu Mono';
+	background: #e7e8e2;
+	font-size: 1.2em;
+}
+
+.remark-small-code  {
+	font-family: 'Ubuntu Mono';
+	font-size: 0.9em;
+}
+
+.remark-small-code p {
+	font-size: 18px;
+}
+
+.img-left {
+	width: 50%;
+	float: left;
+}
+.img-right {
+	width: 50%;
+	float: right;
+}
+/* Two-column layout */
+.left-column {
+	color: #777;
+	width: 20%;
+	height: 92%;
+	float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+	color: yellow;
+}
+.yellow{
+	color: yellow;
+}
+
+img[alt$="-resize-50"]{
+		margin-top: -30px;
+		width:  75%;
+		height:  30%;
+}
+
+img[alt$="-resize-b"]{
+	width:  100%;
+}
+
+.span {
+	width: 100%;
+}
+/*trbl*/
+img[alt$="-clip-b"]{
+	margin-top: 10px;
+	position: absolute;
+	clip: rect(0px auto 225px auto);
+}
+.right-column {
+	width: 75%;
+	float: right;
+	padding-top: 1em;
+}
+
+.right-column .{
+	background: #e7e8e2;
+}
+.lblue {
+	background: #A9BFD4;
+}
+.term {
+	/*color: #6CF02B;*/
+	color: #61DD24;
+	/*background: #4D4D4D;*/
+	background: #383B3E;
+}
+
+.actions li {
+	font-size: 32px;
+}
