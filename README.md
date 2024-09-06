@@ -12,4 +12,4 @@ This repository is aggregating slides and talk suggestion for [Kubernetes Meetup
 6. The talk is given and the slides are added to this repo.
 
 
-[1]: https://www.meetup.com/Kubernetes-Nurnberg/
+[1]: https://community.cncf.io/nurnberg/
